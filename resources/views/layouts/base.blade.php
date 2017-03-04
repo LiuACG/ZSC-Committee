@@ -7,13 +7,13 @@
 
     <!-- Style Sheet -->
     <link rel="stylesheet" href="{{ URL('asset/css/reset.css') }}">
-    <link rel="stylesheet" href="{{ URL('asset/css/style.css?_t=4') }}">
+    <link rel="stylesheet" href="{{ URL('asset/css/style.css?_t=5') }}">
     @yield('style-sheet')
 
     <!-- JavaScript -->
     <script type="text/javascript" src="{{ URL('asset/js/jquery-3.1.1.js') }}"></script>
     @yield('preload-script')
-    <script type="text/javascript" src="{{ URL('asset/js/main.js') }}"></script>
+    <script type="text/javascript" src="{{ URL('asset/js/main.js?') }}"></script>
 </head>
 <body>
     <nav class="navbar">
